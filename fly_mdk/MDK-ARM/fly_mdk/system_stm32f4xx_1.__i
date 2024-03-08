@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I.\LIB
+-I D:\fly\fly_mdk\MDK-ARM\RTE
+-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1
+-I D:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx
+-o fly_mdk\system_stm32f4xx_1.o --omf_browse fly_mdk\system_stm32f4xx_1.crf --depend fly_mdk\system_stm32f4xx_1.d "../Core/Src/system_stm32f4xx.c"
